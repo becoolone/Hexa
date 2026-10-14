@@ -174,11 +174,6 @@ Simply upload all files to your hosting provider, ensuring the directory structu
 📧 Email: info@hexaplumbingandgas.co.uk  
 📍 Location: Manchester and surrounding areas  
 🌐 Facebook: [Hexa Plumbing Gas](https://www.facebook.com/p/Hexa-Plumbing-Gas-61560947931557/)
-
-## License
-
-© 2024 HEXA Plumbing & Gas. All rights reserved.
-
 ---
 
 *Built with care for professional plumbing services in Manchester.*
