@@ -1,0 +1,910 @@
+﻿<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HEXA Plumbing &amp; Gas | Plumbing &amp; Gas Services in Manchester</title>
+<meta name="description" content="HEXA Plumbing & Gas provides plumbing, heating and gas-related services for homes and businesses in Manchester and surrounding areas. Request a free quote today.">
+<link rel="canonical" href="https://www.example.com/"><!-- TODO: replace with your real website address -->
+<meta name="theme-color" content="#0B2942">
+
+<!-- Open Graph (placeholders: replace with real values) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="HEXA Plumbing & Gas | Manchester">
+<meta property="og:description" content="Plumbing, heating and gas-related services for homes and businesses in Manchester.">
+<meta property="og:url" content="https://www.example.com/">
+<meta property="og:image" content="https://www.example.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<!-- Local business structured data. Only uses the demo details supplied; update once verified. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "name": "HEXA Plumbing & Gas",
+  "telephone": "+44 7717 137308",
+  "email": "info@hexaplumbingandgas.co.uk",
+  "address": { "@type": "PostalAddress", "addressLocality": "Manchester", "addressCountry": "GB" },
+  "areaServed": "Manchester and surrounding areas",
+  "sameAs": ["https://www.facebook.com/p/Hexa-Plumbing-Gas-61560947931557/"]
+}
+</script>
+
+<style>
+:root{
+  --navy:#0B2942; --blue:#087DB5; --green:#09B66D; --mist:#F0F6F9; --white:#fff; --text:#18354D;
+  --green-dark:#078a52; --muted:#4d6578; --line:#dbe6ec;
+  --radius:12px; --shadow-sm:0 1px 3px rgba(11,41,66,.08); --shadow:0 8px 28px rgba(11,41,66,.10);
+  --max:1180px; --header-h:76px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 12px)}
+body{margin:0;font-family:'Manrope',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:var(--text);background:#fff;line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--blue);text-decoration:none}
+h1,h2,h3,h4{line-height:1.18;margin:0 0 .5em;color:var(--navy);letter-spacing:-.01em}
+p{margin:0 0 1em}
+ul{margin:0;padding:0;list-style:none}
+:focus-visible{outline:3px solid var(--green);outline-offset:3px;border-radius:6px}
+.container{width:min(100% - 40px,var(--max));margin-inline:auto}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:8px;background:var(--navy);color:#fff;padding:10px 16px;border-radius:8px;z-index:200}
+.skip:focus{left:8px}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:48px;padding:0 24px;border-radius:999px;font:700 .98rem 'Manrope',sans-serif;border:2px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s,transform .2s,box-shadow .2s;text-align:center}
+.btn:hover{transform:translateY(-1px)}
+.btn-green{background:var(--green);color:#fff;box-shadow:0 6px 16px rgba(9,182,109,.28)}
+.btn-green:hover{background:var(--green-dark);color:#fff}
+.btn-outline{border-color:var(--navy);color:var(--navy);background:transparent}
+.btn-outline:hover{background:var(--navy);color:#fff}
+.btn-outline-light{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-outline-light:hover{background:#fff;color:var(--navy)}
+.btn-sm{min-height:42px;padding:0 20px;font-size:.92rem}
+
+/* Header */
+.site-header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid var(--line);transition:box-shadow .25s}
+.site-header.scrolled{box-shadow:0 4px 20px rgba(11,41,66,.09)}
+.header-inner{height:var(--header-h);display:flex;align-items:center;gap:28px}
+.logo{display:inline-flex;align-items:center;gap:10px;color:var(--navy)}
+.logo svg{width:44px;height:50px;flex:none}
+.logo-text{display:flex;flex-direction:column;line-height:1}
+.logo-text strong{font-weight:800;font-size:1.75rem;letter-spacing:.05em;color:var(--navy)}
+.logo-text span{font-size:.6rem;font-weight:700;letter-spacing:.2em;color:var(--blue);margin-top:4px}
+.site-footer .logo-text strong{color:#fff}.site-footer .logo-text span{color:#7fd3ee}
+.main-nav{margin-inline:auto}
+.main-nav ul{display:flex;gap:30px}
+.main-nav a{color:var(--text);font-weight:600;font-size:.94rem;padding:6px 0;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.main-nav a:hover,.main-nav a.active{color:var(--blue);border-color:var(--green)}
+.header-cta{display:flex;align-items:center;gap:20px}
+.header-phone{display:flex;align-items:center;gap:10px;color:var(--navy);font-weight:800;line-height:1.15}
+.header-phone i{color:var(--green);font-size:1.5rem}
+.header-phone small{display:block;font-weight:500;color:var(--muted);font-size:.74rem}
+.menu-toggle{display:none;margin-left:auto;width:48px;height:48px;border:1px solid var(--line);background:#fff;border-radius:10px;cursor:pointer;color:var(--navy);font-size:1.2rem}
+
+/* Hero */
+.hero{background:linear-gradient(115deg,var(--navy) 0%,#0c3558 60%,#0a4a73 100%);color:#fff;overflow:hidden;position:relative;min-height:85vh;display:flex;align-items:center}
+.hero::before{content:"";position:absolute;inset:0;background-image:url('cover.jpg');background-size:cover;background-position:center;z-index:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg, var(--navy) 0%, rgba(11,41,66,0.85) 40%, rgba(11,41,66,0) 100%);z-index:1}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;padding:72px 0;position:relative;z-index:2}
+.eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--green);margin-bottom:14px;display:block}
+.hero .eyebrow{color:#6fe3b0}
+.hero h1{color:#fff;font-size:clamp(2.2rem,4.6vw,3.5rem);font-weight:800;margin-bottom:.45em}
+.hero h1 em{font-style:normal;color:var(--green)}
+.hero p.lead{font-size:1.1rem;color:#d3e3ee;max-width:540px;margin-bottom:28px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:34px}
+.benefits{display:flex;flex-wrap:wrap;gap:12px 28px}
+.benefits li{display:flex;align-items:center;gap:10px;font-weight:700;font-size:.92rem;color:#fff}
+.benefits i{width:36px;height:36px;border-radius:50%;background:rgba(9,182,109,.18);color:#6fe3b0;display:grid;place-items:center;font-size:.95rem}
+.hero-media{position:relative}
+.hero-media img{width:100%;aspect-ratio:4/4.3;object-fit:cover;border-radius:20px;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.media-tag{position:absolute;left:16px;bottom:16px;background:rgba(11,41,66,.88);color:#fff;font-size:.74rem;font-weight:700;padding:6px 12px;border-radius:999px;backdrop-filter:blur(4px)}
+
+/* Section base */
+section{padding:88px 0}
+.section-head{max-width:640px;margin:0 auto 52px;text-align:center}
+.section-head h2{font-size:clamp(1.8rem,3.2vw,2.5rem);font-weight:800}
+.section-head p{color:var(--muted);font-size:1.05rem;margin:0}
+
+/* Services */
+#services{background:var(--mist)}
+.services-layout{display:grid;grid-template-columns:repeat(6,1fr);gap:22px}
+.service{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;display:flex;flex-direction:column;box-shadow:var(--shadow-sm);transition:transform .25s,box-shadow .25s,border-color .25s;grid-column:span 2}
+.service:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#bfe9d6}
+.service.wide{grid-column:span 3}
+.service .ico{width:56px;height:56px;border-radius:14px;display:grid;place-items:center;font-size:1.4rem;color:#fff;background:var(--green);margin-bottom:20px}
+.service:nth-child(even) .ico{background:var(--blue)}
+.service h3{font-size:1.15rem;font-weight:800}
+.service p{color:var(--muted);font-size:.96rem;flex:1}
+.service .note{font-size:.82rem;color:#7a5a00;background:#fff6dc;border-radius:8px;padding:8px 10px;margin-bottom:14px}
+.service a.more{font-weight:800;font-size:.92rem;display:inline-flex;align-items:center;gap:8px;color:var(--blue)}
+.service a.more i{transition:transform .2s;color:var(--green)}
+.service a.more:hover i{transform:translateX(4px)}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.about-media{position:relative}
+.about-media img{width:100%;aspect-ratio:5/4.6;object-fit:cover;border-radius:18px;box-shadow:var(--shadow)}
+.about-badge{position:absolute;right:-18px;bottom:28px;background:var(--green);color:#fff;border-radius:12px;padding:14px 18px;display:flex;gap:12px;align-items:center;font-weight:800;font-size:.9rem;box-shadow:var(--shadow)}
+.about h2{font-size:clamp(1.8rem,3vw,2.4rem);font-weight:800}
+.about p{color:var(--muted);font-size:1.05rem}
+.points{display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;margin:24px 0 32px}
+.points li{display:flex;gap:10px;align-items:flex-start;font-weight:700;font-size:.96rem}
+.points i{color:#fff;background:var(--green);width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:.65rem;flex:none;margin-top:2px}
+
+/* Gallery */
+#work{background:var(--mist)}
+.work-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:34px}
+.work-head h2{font-size:clamp(1.8rem,3vw,2.4rem);font-weight:800;margin-bottom:6px}
+.work-head p{margin:0;color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:32px}
+.project-card{background:#fff;border-radius:var(--radius);padding:0;box-shadow:var(--shadow-sm);overflow:hidden}
+.project-images{display:grid;gap:2px;background:#e5e5e5;padding:2px;height:400px;overflow:hidden}
+.project-images.count-2{grid-template-columns:1fr;grid-template-rows:1fr 1fr}
+.project-images.count-3{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr}
+.project-images.count-3 .project-img:last-child{grid-column:1/-1}
+.project-images.count-4{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr}
+.project-img{position:relative;overflow:hidden;cursor:pointer;background:var(--navy)}
+.project-img img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.project-img:hover img{transform:scale(1.05)}
+.project-title{padding:20px 24px;text-align:center}
+.project-title h3{font-size:1.1rem;font-weight:800;margin:0;color:var(--navy)}
+
+/* Lightbox */
+.lightbox{position:fixed;inset:0;background:rgba(6,20,33,.94);z-index:300;display:none;align-items:center;justify-content:center;padding:24px}
+.lightbox.open{display:flex}
+.lb-content{display:flex;flex-direction:column;align-items:center;max-width:min(1200px,100%);width:100%}
+.lb-figure{margin:0;max-width:100%;text-align:center}
+.lb-figure img{max-height:70vh;width:auto;max-width:100%;margin:0 auto;border-radius:10px;background:#0b2942}
+.lb-figure figcaption{color:#fff;margin-top:14px;font-weight:600}
+.lb-thumbnails{display:flex;gap:8px;margin-top:20px;padding:0 60px;justify-content:center;flex-wrap:wrap}
+.lb-thumb{width:80px;height:80px;border-radius:8px;overflow:hidden;cursor:pointer;border:3px solid transparent;transition:border-color .2s,opacity .2s;opacity:.6}
+.lb-thumb:hover{opacity:1;border-color:rgba(255,255,255,.5)}
+.lb-thumb.active{opacity:1;border-color:var(--green)}
+.lb-thumb img{width:100%;height:100%;object-fit:cover}
+.lb-btn{position:absolute;width:52px;height:52px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1);color:#fff;font-size:1.1rem;cursor:pointer;transition:background .2s}
+.lb-btn:hover{background:var(--green)}
+.lb-close{top:20px;right:20px}.lb-prev{left:20px;top:50%;transform:translateY(-50%)}.lb-next{right:20px;top:50%;transform:translateY(-50%)}
+
+/* Reviews */
+.reviews-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:22px;align-items:stretch}
+.review{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px 28px;box-shadow:var(--shadow-sm);position:relative;display:flex;flex-direction:column}
+.quote-mark{position:absolute;top:14px;right:22px;font-size:3.2rem;color:#e6eef3}
+.stars{color:#f5b400;margin-bottom:14px;font-size:.95rem;letter-spacing:2px}
+.review blockquote{margin:0 0 20px;flex:1;font-size:1rem}
+.who{display:flex;align-items:center;gap:12px;font-size:.88rem}
+.avatar{width:42px;height:42px;border-radius:50%;background:var(--mist);color:var(--blue);display:grid;place-items:center;font-weight:800}
+.who strong{display:block;color:var(--navy)}
+.sample-label{display:inline-block;margin-top:14px;font-size:.74rem;font-weight:700;background:#fff6dc;color:#7a5a00;padding:5px 10px;border-radius:6px}
+.reviews-cta{text-align:center;margin-top:36px}
+.reviews-cta p{color:var(--muted);font-size:.9rem;margin-top:12px}
+
+/* Contact */
+#contact{background:var(--navy);color:#d3e3ee;position:relative}
+#contact::before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:linear-gradient(90deg,var(--green),var(--blue))}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+#contact h2{color:#fff;font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800}
+.contact-list{margin:26px 0;display:grid;gap:14px}
+.contact-list li{display:flex;gap:14px;align-items:flex-start}
+.contact-list .ci{width:42px;height:42px;border-radius:50%;background:rgba(9,182,109,.16);color:#6fe3b0;display:grid;place-items:center;flex:none}
+.contact-list a{color:#fff;font-weight:700}
+.contact-list a:hover{color:#6fe3b0}
+.contact-list small{display:block;color:#9db8cb}
+.socials{display:flex;gap:12px;margin-top:22px}
+.socials a{width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.1rem;transition:.2s}
+.socials a i{display:flex;align-items:center;justify-content:center}
+.socials a:hover{background:var(--green);border-color:var(--green)}
+.form-card{background:#fff;color:var(--text);border-radius:18px;padding:34px;box-shadow:0 24px 60px rgba(0,0,0,.28)}
+.form-card h3{font-size:1.3rem;font-weight:800}
+.form-card .intro{color:var(--muted);font-size:.92rem;margin-bottom:20px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field.full{grid-column:1/-1}
+label,.legend{font-weight:700;font-size:.88rem;color:var(--navy)}
+label .req{color:#c0392b}
+input[type=text],input[type=email],input[type=tel],select,textarea{width:100%;min-height:48px;padding:12px 14px;border:1.5px solid #c5d4de;border-radius:10px;font:500 1rem 'Manrope',sans-serif;color:var(--text);background:#fff;transition:border-color .2s,box-shadow .2s}
+select{cursor:pointer;padding-right:40px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath fill='%230B2942' d='M8 11L3 6h10z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:16px;appearance:none;-webkit-appearance:none;-moz-appearance:none}
+select option{cursor:pointer}
+textarea{min-height:120px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px rgba(8,125,181,.15)}
+.field.invalid input,.field.invalid select,.field.invalid textarea{border-color:#c0392b;background:#fff8f7}
+.error{color:#b3261e;font-size:.82rem;font-weight:600;min-height:0;display:none}
+.field.invalid .error{display:block}
+.radio-row{display:flex;gap:10px;flex-wrap:wrap}
+.radio-row label{display:flex;align-items:center;gap:8px;border:1.5px solid #c5d4de;border-radius:999px;padding:9px 16px;cursor:pointer;font-weight:600;font-size:.9rem;min-height:44px}
+.radio-row input{accent-color:var(--green)}
+.radio-row label:has(input:checked){border-color:var(--green);background:#eafaf2}
+.consent{display:flex;gap:10px;align-items:flex-start;font-weight:500;font-size:.88rem;color:var(--muted)}
+.consent input{margin-top:4px;width:18px;height:18px;accent-color:var(--green);flex:none}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.form-note{font-size:.8rem;color:var(--muted);margin:14px 0 0}
+.form-note i{color:var(--blue)}
+.form-success{display:none;text-align:center;padding:30px 10px}
+.form-success.show{display:block}
+.form-success .tick{width:72px;height:72px;border-radius:50%;background:#eafaf2;color:var(--green);display:grid;place-items:center;font-size:2rem;margin:0 auto 18px}
+.form-card.done form{display:none}
+.form-card.done .form-head{display:none}
+
+/* Footer */
+.site-footer{background:#071d31;color:#a9c0d1;padding:64px 0 0}
+.footer-grid{display:grid;grid-template-columns:1.4fr .8fr 1fr 1.2fr;gap:40px;padding-bottom:44px}
+.site-footer h4{color:#fff;font-size:.95rem;margin-bottom:16px;letter-spacing:.04em;text-transform:uppercase}
+.site-footer li{margin-bottom:10px;font-size:.93rem}
+.site-footer a{color:#a9c0d1}.site-footer a:hover{color:#6fe3b0}
+.site-footer p{font-size:.93rem;margin-top:16px}
+.f-contact i{color:var(--green);width:22px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding:20px 0;display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:center;font-size:.85rem}
+.footer-bottom .legal{display:flex;gap:20px}
+.footer-bottom .socials{margin:0}.footer-bottom .socials a{width:38px;height:38px;font-size:.95rem;display:flex;align-items:center;justify-content:center}.footer-bottom .socials a i{display:flex;align-items:center;justify-content:center}
+
+/* Back to top */
+.to-top{position:fixed;right:20px;bottom:20px;width:50px;height:50px;border-radius:50%;border:0;background:var(--green);color:#fff;font-size:1.1rem;cursor:pointer;box-shadow:var(--shadow);opacity:0;visibility:hidden;transform:translateY(10px);transition:.25s;z-index:90}
+.to-top.show{opacity:1;visibility:visible;transform:none}
+.to-top:hover{background:var(--green-dark)}
+
+/* Responsive */
+@media (max-width:1040px){
+  .header-phone small{display:none}
+  .main-nav ul{gap:20px}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .reviews-grid{grid-template-columns:1fr 1fr}
+  .reviews-grid .review:first-child{grid-column:1/-1}
+}
+@media (max-width:900px){
+  .menu-toggle{display:block}
+  .header-cta{display:none}
+  .main-nav{position:absolute;top:var(--header-h);left:0;right:0;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 14px 24px rgba(11,41,66,.1);display:none;padding:20px 24px 32px;max-height:85vh;overflow-y:auto}
+  .main-nav.open{display:block}
+  .main-nav ul{flex-direction:column;gap:0;margin-bottom:0}
+  .main-nav a{display:block;padding:16px 8px;border-bottom:1px solid var(--line);font-size:1.05rem}
+  .main-nav .nav-cta{display:flex;flex-direction:column;gap:0;margin-top:0;padding-top:0;border-top:none}
+  .main-nav .nav-cta .btn{width:100%;justify-content:center;min-height:54px;font-size:1.02rem;font-weight:700;box-sizing:border-box}
+  .main-nav .nav-cta .btn-outline{background:#fff;margin-top:16px;border:2px solid var(--navy)}
+  .main-nav .nav-cta .btn-green{margin-top:28px}
+  .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:40px}
+  .hero-grid{padding:48px 0}
+  .services-layout{grid-template-columns:1fr 1fr}
+  .service,.service.wide{grid-column:span 1}
+  .service:last-child{grid-column:1/-1}
+  .about-badge{right:12px}
+  .gallery{grid-template-columns:1fr}
+  section{padding:64px 0}
+}
+@media (min-width:901px){.nav-cta{display:none}}
+@media (max-width:620px){
+  .services-layout{grid-template-columns:1fr}
+  .service:last-child{grid-column:auto}
+  .points,.form-grid,.reviews-grid,.footer-grid{grid-template-columns:1fr}
+  .form-card{padding:24px 20px}
+  .gallery{gap:10px;grid-template-columns:1fr}
+  .hero-actions .btn{width:100%}
+  .lb-prev{left:8px}.lb-next{right:8px}
+  .lb-thumbnails{display:none}
+  .lightbox{padding:12px}
+  .lb-figure img{max-height:80vh;width:auto;max-width:100%;height:auto;object-fit:contain}
+  .footer-bottom{flex-direction:column;align-items:flex-start}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- Logo symbol (original: geometric drop split in blue/green with a water-flow line) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0aa0d8"/><stop offset="1" stop-color="#087DB5"/></linearGradient>
+    <linearGradient id="gG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2fd68c"/><stop offset="1" stop-color="#09B66D"/></linearGradient>
+    <symbol id="logo-mark" viewBox="0 0 44 50">
+      <path d="M22 2 C22 2 6 20 6 31 a16 16 0 0 0 16 16 Z" fill="url(#gB)"/>
+      <path d="M22 2 C22 2 38 20 38 31 a16 16 0 0 1 -16 16 Z" fill="url(#gG)"/>
+      <path d="M10 33 q6 -6 12 0 t12 0" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M22 2 V47" stroke="#fff" stroke-opacity=".35" stroke-width="1.2"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="#home" aria-label="HEXA Plumbing &amp; Gas, home">
+      <img src="logo.png" alt="HEXA Logo" style="width:50px;height:50px;object-fit:contain" aria-hidden="true">
+      <span class="logo-text"><strong>HEXA</strong><span>PLUMBING &amp; GAS</span></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Our Work</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="btn btn-outline" href="tel:+447717137308"><i class="fa-solid fa-phone"></i> +44 7717 137308</a>
+        <a class="btn btn-green" href="https://wa.me/447717137308" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </nav>
+
+    <div class="header-cta">
+      <a class="header-phone" href="tel:+447717137308">
+        <i class="fa-solid fa-phone-volume" aria-hidden="true"></i>
+        <span>+44 7717 137308<small>Call us at anytime</small></span>
+      </a>
+      <a class="btn btn-green btn-sm" href="https://wa.me/447717137308" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<main id="main">
+<!-- HERO -->
+<section class="hero" id="home" style="padding:0">
+  <div class="container hero-grid">
+    <div>
+      <h1>Reliable Plumbing &amp; Gas Services <em>in Manchester</em></h1>
+      <p class="lead">From everyday plumbing repairs to boiler installations, we help homeowners and businesses across Manchester keep things running smoothly.</p>
+      <div class="hero-actions">
+        <a class="btn btn-green" href="tel:+447717137308"><i class="fa-solid fa-phone"></i> Call Now</a>
+        <a class="btn btn-outline-light" href="#contact">Get a Free Quote</a>
+      </div>
+      <ul class="benefits">
+        <li><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Professional Service</li>
+        <li><i class="fa-solid fa-clock" aria-hidden="true"></i> Responsive Callouts</li>
+        <li><i class="fa-solid fa-star" aria-hidden="true"></i> Quality Workmanship</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="section-head">
+      <h2>Plumbing Solutions</h2>
+      <p>Practical solutions for your home and business.</p>
+    </div>
+    <div class="services-layout">
+      <article class="service">
+        <div class="ico"><i class="fa-solid fa-bath" aria-hidden="true"></i></div>
+        <h3>Bathroom Installation &amp; Renovation</h3>
+        <p>Baths, sinks, showers, and full bathroom upgrades.</p>
+        <a class="more" href="#contact" data-service="Bathroom Installation & Renovation">Request a Quote <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </article>
+      <article class="service">
+        <div class="ico"><i class="fa-solid fa-fire-flame-simple" aria-hidden="true"></i></div>
+        <h3>Hot Water &amp; Heating Repairs</h3>
+        <p>Gas/electric hot water systems, boiler repairs, and heating elements.</p>
+        <a class="more" href="#contact" data-service="Hot Water & Heating Repairs">Request a Quote <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </article>
+      <article class="service">
+        <div class="ico"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i></div>
+        <h3>Emergency Plumbing &amp; System Repairs</h3>
+        <p>Urgent plumbing issues, complex repairs, and restoring heating or water systems.</p>
+        <a class="more" href="#contact" data-service="Emergency Plumbing & System Repairs">Request a Quote <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="work">
+  <div class="container">
+    <div class="work-head">
+      <div>
+        <h2>Some of Our Works</h2>
+        <p>Explore examples of plumbing and installation work.</p>
+      </div>
+      <a class="btn btn-outline btn-sm" href="https://www.facebook.com/p/Hexa-Plumbing-Gas-61560947931557/" target="_blank" rel="noopener">More on Facebook <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+    </div>
+    <div class="gallery" id="gallery">
+      <!-- Project 1: Bathroom Installation -->
+      <div class="project-card">
+        <div class="project-images count-3">
+          <div class="project-img" onclick="openLightbox(0)"><img src="1a.jpg" loading="lazy" alt="Bathroom installation view 1"></div>
+          <div class="project-img" onclick="openLightbox(1)"><img src="1b.jpg" loading="lazy" alt="Bathroom installation view 2"></div>
+          <div class="project-img" onclick="openLightbox(2)"><img src="1c.jpg" loading="lazy" alt="Bathroom installation view 3"></div>
+        </div>
+        <div class="project-title">
+          <h3>Complete Bathroom Installation</h3>
+        </div>
+      </div>
+
+      <!-- Project 2: Emergency Airbnb Repair -->
+      <div class="project-card">
+        <div class="project-images count-2">
+          <div class="project-img" onclick="openLightbox(3)"><img src="2a.jpg" loading="lazy" alt="Emergency repair view 1"></div>
+          <div class="project-img" onclick="openLightbox(4)"><img src="2b.jpg" loading="lazy" alt="Emergency repair view 2"></div>
+        </div>
+        <div class="project-title">
+          <h3>24-Hour Emergency Repair</h3>
+        </div>
+      </div>
+
+      <!-- Project 3: Hob/Cooker Installation -->
+      <div class="project-card">
+        <div class="project-images count-3">
+          <div class="project-img" onclick="openLightbox(5)"><img src="3a.jpg" loading="lazy" alt="Hob installation view 1"></div>
+          <div class="project-img" onclick="openLightbox(6)"><img src="3b.jpg" loading="lazy" alt="Hob installation view 2"></div>
+          <div class="project-img" onclick="openLightbox(7)"><img src="3c.jpg" loading="lazy" alt="Hob installation view 3"></div>
+        </div>
+        <div class="project-title">
+          <h3>Hob & Cooker Installation</h3>
+        </div>
+      </div>
+
+      <!-- Project 4: Boiler Service -->
+      <div class="project-card">
+        <div class="project-images count-2">
+          <div class="project-img" onclick="openLightbox(8)"><img src="4a.jpg" loading="lazy" alt="Boiler service view 1"></div>
+          <div class="project-img" onclick="openLightbox(9)"><img src="4b.jpg" loading="lazy" alt="Boiler service view 2"></div>
+        </div>
+        <div class="project-title">
+          <h3>Boiler Service & Safety Check</h3>
+        </div>
+      </div>
+
+      <!-- Project 5: Dual Boiler Installation -->
+      <div class="project-card">
+        <div class="project-images count-4">
+          <div class="project-img" onclick="openLightbox(10)"><img src="5a.jpg" loading="lazy" alt="Dual boiler installation view 1"></div>
+          <div class="project-img" onclick="openLightbox(11)"><img src="5b.jpg" loading="lazy" alt="Dual boiler installation view 2"></div>
+          <div class="project-img" onclick="openLightbox(12)"><img src="5c.jpg" loading="lazy" alt="Dual boiler installation view 3"></div>
+          <div class="project-img" onclick="openLightbox(13)"><img src="5d.jpg" loading="lazy" alt="Dual boiler installation view 4"></div>
+        </div>
+        <div class="project-title">
+          <h3>Dual Boiler Replacement</h3>
+        </div>
+      </div>
+
+      <!-- Project 6: Soil Stack Replacement -->
+      <div class="project-card">
+        <div class="project-images count-2">
+          <div class="project-img" onclick="openLightbox(14)"><img src="6a.jpg" loading="lazy" alt="Drainage upgrade view 1"></div>
+          <div class="project-img" onclick="openLightbox(15)"><img src="6b.jpg" loading="lazy" alt="Drainage upgrade view 2"></div>
+        </div>
+        <div class="project-title">
+          <h3>Drainage System Upgrade</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="container">
+    <div class="section-head">
+      <h2>What Customers Say</h2>
+      <p>See what our customers have to say about our service.</p>
+    </div>
+    <div class="reviews-grid">
+      <!-- REPLACE with real, verified reviews (with permission). -->
+      <article class="review">
+        <i class="fa-solid fa-quote-right quote-mark" aria-hidden="true"></i>
+        <div class="stars" role="img" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote>“My boiler had broken down and I found these guys online quick response time and come out when they were next available they carried out a brilliant job in a safe manner excellent customer service given by the two people Adam and his associate worked professionally on my boiler and had it working in few hours if you require a plumber in Manchester give Hexa Plumbing and Gas a ring .. Top Lads ..”</blockquote>
+        <div class="who"><span class="avatar">RH</span><span><strong>Riz Hussain</strong>Manchester</span></div>
+        
+      </article>
+      <article class="review">
+        <i class="fa-solid fa-quote-right quote-mark" aria-hidden="true"></i>
+        <div class="stars" role="img" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote>“Absolutely brilliant!  Adam has serviced my boiler and fixed bath fittings....he is such a genuinely nice person....nothing is too much bother...and his work is spot on👌.....I've asked him to fit bath at my sons house....and he's got back to me straight away....you're in good hands with Adam.”</blockquote>
+        <div class="who"><span class="avatar">DH</span><span><strong>Diane Hails</strong>Manchester</span></div>
+        
+      </article>
+      <article class="review">
+        <i class="fa-solid fa-quote-right quote-mark" aria-hidden="true"></i>
+        <div class="stars" role="img" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote>“Friendly and efficient service. Adam kept me informed throughout and talked me through the options. Highly recommended.”</blockquote>
+        <div class="who"><span class="avatar">ES</span><span><strong>Enid Shelmerdine</strong>Manchester</span></div>
+        
+      </article>
+    </div>
+    <div class="reviews-cta">
+      <a class="btn btn-outline" href="https://www.google.com/maps/place/Hexa+Plumbing+%26+Gas+Ltd/@-35.2643897,-45.0051498,16z/data=!4m8!3m7!1s0xa4e266f77db73905:0x69391a256906a51b!8m2!3d53.4722454!4d-2.2234628!9m1!1b1!16s%2Fg%2F11n9r6lyys?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener"><i class="fa-brands fa-google" aria-hidden="true"></i> Read our verified reviews</a>
+      <p>See all our customer reviews on Google</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container contact-grid">
+    <div>
+      <h2>Let's Get Your Plumbing Sorted</h2>
+      <p>Tell us what you need and we'll get back to you with a quotation. Call, message us on WhatsApp or send the form.</p>
+      <ul class="contact-list"><!-- EDIT: contact details (demo content, unverified) -->
+        <li><span class="ci"><i class="fa-solid fa-phone"></i></span><span><small>Phone</small><a href="tel:+447717137308">+44 7717 137308</a></span></li>
+        <li><span class="ci"><i class="fa-solid fa-envelope"></i></span><span><small>Email</small><a href="mailto:info@hexaplumbingandgas.co.uk">info@hexaplumbingandgas.co.uk</a></span></li>
+        <li><span class="ci"><i class="fa-brands fa-whatsapp"></i></span><span><small>WhatsApp</small><a href="https://wa.me/447717137308" target="_blank" rel="noopener">Chat on WhatsApp</a></span></li>
+        <li><span class="ci"><i class="fa-solid fa-location-dot"></i></span><span><small>Location</small>Manchester, United Kingdom</span></li>
+        <li><span class="ci"><i class="fa-solid fa-map"></i></span><span><small>Service area</small>Manchester and surrounding areas</span></li>
+      </ul>
+      <div style="display:flex;gap:14px;margin-top:26px;flex-wrap:wrap">
+        <a class="btn btn-green" href="https://wa.me/447717137308" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <a class="btn" href="https://www.facebook.com/p/Hexa-Plumbing-Gas-61560947931557/" target="_blank" rel="noopener" style="background:#fff;color:var(--blue);border:2px solid var(--blue)"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+      </div>
+    </div>
+
+    <div class="form-card" id="form-card">
+      <div class="form-head">
+        <h3>Request a free quote</h3>
+        <p class="intro">Fields marked <span style="color:#c0392b">*</span> are required. <span id="mode-text"></span></p>
+      </div>
+      <form id="quote-form" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="name">Full name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-err">
+            <span class="error" id="name-err">Please enter your full name.</span>
+          </div>
+          <div class="field">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-err">
+            <span class="error" id="email-err">Please enter a valid email address.</span>
+          </div>
+          <div class="field">
+            <label for="service">Service required <span class="req">*</span></label>
+            <select id="service" name="service" required aria-describedby="service-err">
+              <option value="">Select a service</option>
+              <option>Bathroom Installation &amp; Renovation</option>
+              <option>Hot Water &amp; Heating Repairs</option>
+              <option>Emergency Plumbing &amp; System Repairs</option>
+              <option>Other / not sure</option>
+            </select>
+            <span class="error" id="service-err">Please choose a service.</span>
+          </div>
+          <div class="field full">
+            <label for="message">Message <span class="req">*</span></label>
+            <textarea id="message" name="message" required aria-describedby="message-err" placeholder="Tell us briefly about the job"></textarea>
+            <span class="error" id="message-err">Please tell us a little about what you need.</span>
+          </div>
+          <div class="field full">
+            <label class="consent" for="consent"><input type="checkbox" id="consent" name="consent" required aria-describedby="consent-err"> <span>I agree to HEXA Plumbing &amp; Gas contacting me about my enquiry. <span class="req" style="color:#c0392b">*</span></span></label>
+            <span class="error" id="consent-err">Please tick the box so we can contact you.</span>
+          </div>
+          <!-- Honeypot: hidden from people, bots tend to fill it in -->
+          <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" id="website" tabindex="-1" autocomplete="off"></label></div>
+          <div class="field full">
+            <button type="submit" class="btn btn-green" id="submit-btn"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> <span id="submit-label">Send enquiry</span></button>
+          </div>
+        </div>
+        <p class="form-note"><i class="fa-solid fa-lock" aria-hidden="true"></i> Your details are only used to reply to your enquiry. Please don't include card or password details.</p>
+      </form>
+      <div class="form-success" id="form-success" role="status" tabindex="-1">
+        <div class="tick"><i class="fa-solid fa-check" aria-hidden="true"></i></div>
+        <h3 id="success-title">Thank you</h3>
+        <p id="success-text"></p>
+        <button type="button" class="btn btn-outline btn-sm" id="reset-form">Send another enquiry</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="logo" href="#home" aria-label="HEXA Plumbing &amp; Gas, home">
+        <img src="logo.png" alt="HEXA Logo" style="width:50px;height:50px;object-fit:contain" aria-hidden="true">
+        <span class="logo-text"><strong>HEXA</strong><span>PLUMBING &amp; GAS</span></span>
+      </a>
+      <p>Plumbing, heating and gas-related services for homes and businesses in Manchester and surrounding areas.</p>
+    </div>
+    <div>
+      <h4>Quick links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li><li><a href="#services">Services</a></li>
+        <li><a href="#work">Our Work</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Bathroom Installation &amp; Renovation</a></li>
+        <li><a href="#services">Hot Water &amp; Heating Repairs</a></li>
+        <li><a href="#services">Emergency Plumbing &amp; System Repairs</a></li>
+      </ul>
+    </div>
+    <div class="f-contact">
+      <h4>Contact</h4>
+      <ul>
+        <li><i class="fa-solid fa-phone"></i><a href="tel:+447717137308">+44 7717 137308</a></li>
+        <li><i class="fa-solid fa-envelope"></i><a href="mailto:info@hexaplumbingandgas.co.uk">info@hexaplumbingandgas.co.uk</a></li>
+        <li><i class="fa-solid fa-location-dot"></i>Manchester, United Kingdom</li>
+      </ul>
+      <div class="socials" style="margin-top:14px">
+        <a href="https://www.facebook.com/p/Hexa-Plumbing-Gas-61560947931557/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://wa.me/447717137308" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; <span id="year">2026</span> HEXA Plumbing &amp; Gas. All rights reserved.</span>
+    <span class="legal">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+    </span>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+  <button class="lb-btn lb-close" id="lb-close" aria-label="Close image viewer"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lb-btn lb-prev" id="lb-prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+  <div class="lb-content">
+    <figure class="lb-figure"><img id="lb-img" alt="" width="1000" height="700"><figcaption id="lb-cap"></figcaption></figure>
+    <div class="lb-thumbnails" id="lb-thumbnails"></div>
+  </div>
+  <button class="lb-btn lb-next" id="lb-next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<button class="to-top" id="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script>
+(function(){
+  'use strict';
+
+  /* ================= CONFIGURATION (edit these) ================= */
+  var CONFIG = {
+    businessEmail: 'info@hexaplumbingandgas.co.uk',
+    // Optional: paste a form-service endpoint (e.g. Formspree "https://formspree.io/f/xxxxxx").
+    // If left empty, the form opens a prefilled email in the visitor's email app instead.
+    formEndpoint: '',
+    // Optional: link to your verified Google / Trustpilot / Checkatrade profile.
+    reviewUrl: ''
+  };
+  /* ============================================================== */
+
+  var $ = function(s, c){ return (c||document).querySelector(s); };
+  var $$ = function(s, c){ return Array.prototype.slice.call((c||document).querySelectorAll(s)); };
+
+  /* Year */
+  $('#year').textContent = new Date().getFullYear();
+
+  /* ---------- Placeholder illustrations (used only when an <img> has no src) ---------- */
+  var ICONS = {
+    boiler:'<rect x="-70" y="-110" width="140" height="190" rx="14" fill="#fff"/><rect x="-48" y="-80" width="96" height="40" rx="6" fill="#0B2942"/><circle cx="-22" cy="-60" r="6" fill="#09B66D"/><circle cx="2" cy="-60" r="6" fill="#087DB5"/><rect x="-40" y="-20" width="80" height="8" rx="4" fill="#cfdde6"/><rect x="-60" y="80" width="14" height="60" fill="#c77b3d"/><rect x="-14" y="80" width="14" height="60" fill="#c77b3d"/><rect x="34" y="80" width="14" height="60" fill="#b8b8b8"/>',
+    plumber:'<circle cx="0" cy="-70" r="34" fill="#f1c9a5"/><path d="M-38 -80 a38 38 0 0 1 76 0 z" fill="#0B2942"/><path d="M-70 130 v-110 a40 40 0 0 1 40 -40 h60 a40 40 0 0 1 40 40 v110 z" fill="#0B2942"/><path d="M0 40 c0 0 -14 16 -14 26 a14 14 0 0 0 28 0 c0 -10 -14 -26 -14 -26z" fill="#09B66D"/><rect x="60" y="30" width="50" height="10" rx="5" fill="#9aa8b3"/>',
+    bath:'<rect x="-100" y="0" width="200" height="70" rx="30" fill="#fff"/><rect x="-80" y="70" width="14" height="30" fill="#cfdde6"/><rect x="66" y="70" width="14" height="30" fill="#cfdde6"/><path d="M60 -90 v50 h-30 a10 10 0 0 1 0 -20 h10" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/><path d="M24 -20 q-6 14 0 20" stroke="#6fe3b0" stroke-width="5" fill="none" stroke-linecap="round"/>',
+    pipes:'<g fill="none" stroke-linecap="round" stroke-width="16"><path d="M-90 -90 H0 V0 H90" stroke="#c77b3d"/><path d="M-90 -40 H-40 V60 H90" stroke="#d8934f"/><path d="M-90 100 H20" stroke="#b8b8b8"/></g><circle cx="0" cy="0" r="14" fill="#fff"/><circle cx="-40" cy="60" r="12" fill="#fff"/>',
+    tap:'<path d="M-60 40 V-50 a40 40 0 0 1 40 -40 h50 v30 h-40 v60" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/><rect x="-20" y="-120" width="80" height="14" rx="7" fill="#fff"/><path d="M30 -10 c0 0 -14 18 -14 28 a14 14 0 0 0 28 0 c0 -10 -14 -28 -14 -28z" fill="#6fe3b0"/><rect x="-110" y="80" width="220" height="30" rx="10" fill="#cfdde6"/>',
+    radiator:'<rect x="-100" y="-70" width="200" height="140" rx="12" fill="#fff"/><g fill="#cfdde6"><rect x="-80" y="-56" width="16" height="112" rx="8"/><rect x="-48" y="-56" width="16" height="112" rx="8"/><rect x="-16" y="-56" width="16" height="112" rx="8"/><rect x="16" y="-56" width="16" height="112" rx="8"/><rect x="48" y="-56" width="16" height="112" rx="8"/></g><rect x="-100" y="80" width="14" height="30" fill="#fff"/><rect x="86" y="80" width="14" height="30" fill="#fff"/>',
+    repair:'<path d="M-90 100 L40 -30 a40 40 0 1 1 30 30 L-60 130 a20 20 0 0 1 -30 -30z" fill="#fff"/><circle cx="-60" cy="110" r="8" fill="#087DB5"/><path d="M70 40 c0 0 -14 18 -14 28 a14 14 0 0 0 28 0 c0 -10 -14 -28 -14 -28z" fill="#6fe3b0"/>'
+  };
+  function makePlaceholder(label, icon, idx){
+    var palettes = [['#0B2942','#087DB5'],['#0B2942','#09B66D'],['#087DB5','#0B2942'],['#075f8a','#09B66D']];
+    var p = palettes[idx % palettes.length];
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">'+
+      '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="'+p[0]+'"/><stop offset="1" stop-color="'+p[1]+'"/></linearGradient></defs>'+
+      '<rect width="400" height="400" fill="url(#g)"/>'+
+      '<g opacity=".08" fill="#fff"><circle cx="360" cy="40" r="120"/><circle cx="20" cy="390" r="90"/></g>'+
+      '<g transform="translate(200 185) scale(1.05)">'+(ICONS[icon]||ICONS.pipes)+'</g>'+
+      '<text x="200" y="372" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#fff" fill-opacity=".85" text-anchor="middle">PLACEHOLDER: '+label.toUpperCase().replace(/&AMP;/g,'&')+'</text></svg>';
+    return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+  }
+  $$('img[data-ph]').forEach(function(img, i){
+    if(!img.getAttribute('src')){
+      var parts = img.getAttribute('data-ph').replace(/&amp;/g,'&').split('|');
+      img.src = makePlaceholder(parts[0], parts[1], i);
+    }
+  });
+
+  /* ---------- Header: scroll shadow, mobile menu, active link ---------- */
+  var header = $('.site-header'), toTop = $('#to-top');
+  function onScroll(){
+    header.classList.toggle('scrolled', window.scrollY > 8);
+    toTop.classList.toggle('show', window.scrollY > 600);
+  }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  toTop.addEventListener('click', function(){ window.scrollTo({top:0}); });
+
+  var toggle = $('#menu-toggle'), nav = $('#main-nav');
+  function setMenu(open){
+    nav.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    toggle.innerHTML = open ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+  }
+  toggle.addEventListener('click', function(){ setMenu(!nav.classList.contains('open')); });
+  $$('a', nav).forEach(function(a){ a.addEventListener('click', function(){ setMenu(false); }); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && nav.classList.contains('open')){ setMenu(false); toggle.focus(); }});
+  window.addEventListener('resize', function(){ if(window.innerWidth>900) setMenu(false); });
+
+  var links = $$('.main-nav ul a'), sections = links.map(function(a){ return $(a.getAttribute('href')); });
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          links.forEach(function(a){ a.classList.toggle('active', a.getAttribute('href') === '#'+en.target.id); });
+        }
+      });
+    }, {rootMargin:'-45% 0px -50% 0px'});
+    sections.forEach(function(s){ if(s) io.observe(s); });
+  }
+
+  /* ---------- Placeholder legal links ---------- */
+  $$('a[data-placeholder]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      alert(a.getAttribute('data-placeholder') + ' page placeholder: add your real page and update this link before launch.');
+    });
+  });
+
+  /* ---------- Review link ---------- */
+  if(CONFIG.reviewUrl){
+    var rl = $('#review-link'); rl.href = CONFIG.reviewUrl; rl.target = '_blank'; rl.rel = 'noopener';
+    $('#review-note').textContent = 'Opens our verified review profile in a new tab.';
+  }
+
+  /* ---------- Lightbox ---------- */
+  // Create array of all gallery images
+  var galleryImages = [
+    {src:'1a.jpg',alt:'Bathroom installation view 1',title:'Complete Bathroom Installation'},
+    {src:'1b.jpg',alt:'Bathroom installation view 2',title:'Complete Bathroom Installation'},
+    {src:'1c.jpg',alt:'Bathroom installation view 3',title:'Complete Bathroom Installation'},
+    {src:'2a.jpg',alt:'Emergency repair view 1',title:'24-Hour Emergency Repair'},
+    {src:'2b.jpg',alt:'Emergency repair view 2',title:'24-Hour Emergency Repair'},
+    {src:'3a.jpg',alt:'Hob installation view 1',title:'Hob & Cooker Installation'},
+    {src:'3b.jpg',alt:'Hob installation view 2',title:'Hob & Cooker Installation'},
+    {src:'3c.jpg',alt:'Hob installation view 3',title:'Hob & Cooker Installation'},
+    {src:'4a.jpg',alt:'Boiler service view 1',title:'Boiler Service & Safety Check'},
+    {src:'4b.jpg',alt:'Boiler service view 2',title:'Boiler Service & Safety Check'},
+    {src:'5a.jpg',alt:'Dual boiler installation view 1',title:'Dual Boiler Replacement'},
+    {src:'5b.jpg',alt:'Dual boiler installation view 2',title:'Dual Boiler Replacement'},
+    {src:'5c.jpg',alt:'Dual boiler installation view 3',title:'Dual Boiler Replacement'},
+    {src:'5d.jpg',alt:'Dual boiler installation view 4',title:'Dual Boiler Replacement'},
+    {src:'6a.jpg',alt:'Drainage upgrade view 1',title:'Drainage System Upgrade'},
+    {src:'6b.jpg',alt:'Drainage upgrade view 2',title:'Drainage System Upgrade'}
+  ];
+  
+  var lb = $('#lightbox'), lbImg = $('#lb-img'), lbCap = $('#lb-cap'), lbThumbs = $('#lb-thumbnails');
+  var current = 0, lastFocus = null;
+  
+  function buildThumbnails(){
+    lbThumbs.innerHTML = '';
+    var start = Math.max(0, current - 3);
+    var end = Math.min(galleryImages.length, current + 4);
+    for(var i = start; i < end; i++){
+      var thumb = document.createElement('div');
+      thumb.className = 'lb-thumb' + (i === current ? ' active' : '');
+      thumb.innerHTML = '<img src="' + galleryImages[i].src + '" alt="">';
+      thumb.setAttribute('data-index', i);
+      thumb.onclick = function(){ show(parseInt(this.getAttribute('data-index'))); };
+      lbThumbs.appendChild(thumb);
+    }
+  }
+  
+  function show(i){
+    current = (i + galleryImages.length) % galleryImages.length;
+    var img = galleryImages[current];
+    lbImg.src = img.src;
+    lbImg.alt = img.alt;
+    lbCap.textContent = img.title + ' (' + (current+1) + ' / ' + galleryImages.length + ')';
+    buildThumbnails();
+    $('#lb-prev').style.display = galleryImages.length > 1 ? 'block' : 'none';
+    $('#lb-next').style.display = galleryImages.length > 1 ? 'block' : 'none';
+  }
+  
+  window.openLightbox = function(i){
+    lastFocus = document.activeElement; 
+    show(i);
+    lb.classList.add('open'); 
+    lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow = 'hidden'; 
+    $('#lb-close').focus();
+  };
+  
+  function closeLb(){
+    lb.classList.remove('open'); 
+    lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow = ''; 
+    if(lastFocus) lastFocus.focus();
+  }
+  
+  $('#lb-close').addEventListener('click', closeLb);
+  $('#lb-prev').addEventListener('click', function(){ show(current-1); });
+  $('#lb-next').addEventListener('click', function(){ show(current+1); });
+  lb.addEventListener('click', function(e){ if(e.target === lb) closeLb(); });
+  document.addEventListener('keydown', function(e){
+    if(!lb.classList.contains('open')) return;
+    if(e.key==='Escape') closeLb();
+    else if(e.key==='ArrowLeft') show(current-1);
+    else if(e.key==='ArrowRight') show(current+1);
+  });
+
+  /* ---------- Service "Request a Quote" preselects dropdown ---------- */
+  $$('[data-service]').forEach(function(a){
+    a.addEventListener('click', function(){
+      var sel = $('#service'), v = a.getAttribute('data-service');
+      $$('option', sel).forEach(function(o){ if(o.textContent.trim() === v) sel.value = o.value || o.textContent; });
+    });
+  });
+
+  /* ---------- Contact form ---------- */
+  var form = $('#quote-form'), card = $('#form-card'), success = $('#form-success');
+  var modeText = $('#mode-text'), submitLabel = $('#submit-label');
+  var usingService = !!CONFIG.formEndpoint;
+  modeText.textContent = usingService
+    ? 'Your enquiry will be sent securely to our team.'
+    : 'This site has no server, so sending will open a prefilled email in your email app for you to review and send.';
+  submitLabel.textContent = usingService ? 'Send enquiry' : 'Prepare email';
+
+  function setError(id, bad){ $('#'+id).closest('.field').classList.toggle('invalid', bad); var el=$('#'+id); el.setAttribute('aria-invalid', bad ? 'true':'false'); return bad; }
+  function validate(){
+    var bad = [];
+    var name = $('#name').value.trim(), email = $('#email').value.trim(), phone = $('#phone').value.trim(), msg = $('#message').value.trim();
+    if(setError('name', name.length < 2)) bad.push('name');
+    if(setError('email', !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email))) bad.push('email');
+    var digits = phone.replace(/[^\d]/g,'');
+    if(setError('phone', !/^[\d\s()+\-]+$/.test(phone) || digits.length < 10 || digits.length > 15)) bad.push('phone');
+    if(setError('service', !$('#service').value)) bad.push('service');
+    if(setError('message', msg.length < 10)) bad.push('message');
+    if(setError('consent', !$('#consent').checked)) bad.push('consent');
+    return bad;
+  }
+  $$('input,select,textarea', form).forEach(function(el){
+    el.addEventListener('input', function(){ if(el.closest('.field').classList.contains('invalid')) validate(); });
+    el.addEventListener('change', function(){ if(el.closest('.field').classList.contains('invalid')) validate(); });
+  });
+
+  function showSuccess(title, text){
+    $('#success-title').textContent = title; $('#success-text').textContent = text;
+    card.classList.add('done'); success.classList.add('show'); success.focus();
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if($('#website').value){ return; } // honeypot tripped: likely a bot, drop silently
+    var bad = validate();
+    if(bad.length){ $('#'+bad[0]).focus(); return; }
+
+    var data = {
+      name: $('#name').value.trim(), email: $('#email').value.trim(), phone: $('#phone').value.trim(),
+      service: $('#service').value, method: $('input[name=method]:checked').value, message: $('#message').value.trim()
+    };
+
+    if(usingService){
+      var btn = $('#submit-btn'); btn.disabled = true; submitLabel.textContent = 'Sending…';
+      fetch(CONFIG.formEndpoint, { method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'}, body:JSON.stringify(data) })
+        .then(function(r){
+          if(!r.ok) throw new Error('bad status');
+          showSuccess('Enquiry sent', 'Thank you ' + data.name.split(' ')[0] + '. We have received your enquiry and will reply by ' + data.method.toLowerCase() + '.');
+          form.reset();
+        })
+        .catch(function(){
+          // Never silently lose a submission: fall back to email
+          openMail(data);
+          showSuccess('Almost done', 'We could not reach the form service, so we opened your email app instead. Please press Send there. You can also call or WhatsApp us.');
+        })
+        .finally(function(){ btn.disabled = false; submitLabel.textContent = 'Send enquiry'; });
+    } else {
+      openMail(data);
+      showSuccess('Check your email app', 'We opened a prefilled email addressed to ' + CONFIG.businessEmail + '. Your enquiry is only sent once you press Send in your email app. If nothing opened, call or WhatsApp us instead.');
+    }
+  });
+
+  function openMail(d){
+    var body = 'Name: ' + d.name + '\nEmail: ' + d.email + '\nPhone: ' + d.phone + '\nService: ' + d.service +
+               '\nPreferred contact: ' + d.method + '\n\nMessage:\n' + d.message;
+    window.location.href = 'mailto:' + CONFIG.businessEmail + '?subject=' + encodeURIComponent('Website enquiry: ' + d.service) + '&body=' + encodeURIComponent(body);
+  }
+  $('#reset-form').addEventListener('click', function(){
+    card.classList.remove('done'); success.classList.remove('show'); form.reset();
+    $$('.field.invalid', form).forEach(function(f){ f.classList.remove('invalid'); });
+    $('#name').focus();
+  });
+})();
+</script>
+</body>
+</html>
