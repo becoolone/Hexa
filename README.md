@@ -1,10 +1,10 @@
-# HEXA Plumbing & Gas - Website
+# HEXA Plumbing & Gas - Website (DEMO PROJECT)
 
-A modern, responsive website for HEXA Plumbing & Gas, a professional plumbing and gas services company based in Manchester, UK.
+⚠️ **IMPORTANT: This is a demonstration website created by [Berwan](https://berwan.com). All contact information, business details, and content are fictional and for portfolio/demonstration purposes only.**
 
 ## Overview
 
-This website provides a comprehensive online presence for HEXA Plumbing & Gas, showcasing their services, portfolio of completed works, customer reviews, and contact information. The site is designed to be fast, accessible, and user-friendly across all devices.
+This is a modern, responsive website template for a plumbing and gas services company. The site demonstrates professional web design, accessibility features, and mobile-first responsive design principles.
 
 ## Features
 
@@ -31,7 +31,7 @@ This website provides a comprehensive online presence for HEXA Plumbing & Gas, s
 - Direct quote request links for each service
 
 ### ⭐ Customer Reviews
-- Authentic customer testimonials
+- Customer testimonials display
 - Star ratings display
 - Clean, card-based layout
 
@@ -104,12 +104,12 @@ The color scheme is defined using CSS custom properties in the `:root` selector:
 - `--mist: #F0F6F9` - Light background
 - `--text: #18354D` - Body text color
 
-### Contact Information
-Update the following in `index.html`:
-- Phone number: `+44 7717 137308`
-- Email: `info@hexaplumbingandgas.co.uk`
-- WhatsApp: Update the `wa.me` links
-- Social media URLs
+### Demo Contact Information
+All contact information is fictional:
+- Phone: `+44 1234 567890`
+- Email: `demo@example-plumbing.com`
+- WhatsApp: Demo links only
+- Social media: Placeholder links
 
 ### Services
 Services are listed in the `#services` section. Each service card includes:
@@ -143,7 +143,7 @@ The contact form includes:
 - Service selection dropdown
 - Contact preference options (Phone/Email/WhatsApp)
 
-**Note:** The form currently uses client-side handling. For production, integrate with a backend service or form processing tool (e.g., Formspree, Netlify Forms, or custom backend).
+**Note:** The form currently uses client-side handling only. For production use, integrate with a backend service or form processing tool (e.g., Formspree, Netlify Forms, or custom backend).
 
 ## Deployment
 
@@ -157,23 +157,35 @@ This is a static website and can be deployed to:
 
 Simply upload all files to your hosting provider, ensuring the directory structure is maintained.
 
-## Future Enhancements
+## Demo Notices
 
-- [ ] Backend integration for contact form submissions
-- [ ] Blog section for plumbing tips and company news
-- [ ] Online booking system
-- [ ] Customer portal for service history
-- [ ] Multi-language support
-- [ ] Live chat integration
-- [ ] Service area map integration
+Clear demo notices appear on:
+- ✅ Top banner on all pages
+- ✅ Hero section of homepage
+- ✅ Footer of all pages
+- ✅ Privacy policy page
+- ✅ Terms and conditions page
 
-## Contact
+## Usage & License
 
-**HEXA Plumbing & Gas**  
-📞 Phone: +44 7717 137308  
-📧 Email: info@hexaplumbingandgas.co.uk  
-📍 Location: Manchester and surrounding areas  
-🌐 Facebook: [Hexa Plumbing Gas](https://www.facebook.com/p/Hexa-Plumbing-Gas-61560947931557/)
+This is a demonstration project created by **[Berwan](https://berwan.com)** for portfolio purposes.
+
+**If you wish to use this template:**
+1. Replace all placeholder content with your actual business information
+2. Update all contact details (phone, email, addresses)
+3. Replace demo images with your own project photos
+4. Update the privacy policy and terms to reflect your actual policies
+5. Remove all "DEMO WEBSITE" notices
+6. Integrate a real backend for form submissions
+7. Update social media links
+8. Replace with your actual business logo
+
+## Credits
+
+**Created by:** [Berwan](https://berwan.com)  
+**Project Type:** Portfolio Demonstration  
+**Status:** Demo Website - Not a real business
+
 ---
 
-*Built with care for professional plumbing services in Manchester.*
+*This is a demonstration project showcasing professional web design and development capabilities.*
